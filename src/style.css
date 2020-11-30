@@ -1,0 +1,107 @@
+.DivFrom{
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+    margin-bottom: 500px;
+    margin-right: 500px;
+    margin-left: 600px;
+    align-items: center;
+}
+
+.List{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2.8em;
+}
+
+.Add{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2.8em;
+}
+
+.From{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: .7em;
+    border: 1px solid #c9c9c9;
+    background: linear-gradient(144deg, rgb(101, 189, 146) 0%, rgb(163, 106, 218) 100%);
+    font-size: 1.2em;
+}
+
+.btnAceptar{
+    background: linear-gradient(144deg, rgb(10, 109, 202) 0%, rgb(59, 214, 93) 100%);
+    border: none;
+    border-radius: 10px;
+    width: 9em;
+    height: 1.5em;
+    color: white;
+    font-size: 0.8em;
+    cursor: pointer;
+    align-items: center;
+}
+
+
+.btnEli{
+    background: linear-gradient(144deg, rgb(10, 109, 202) 0%, rgb(59, 214, 93) 100%);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+}
+
+.btnActEli1{
+    background: linear-gradient(144deg, rgb(10, 109, 202) 0%, rgb(59, 214, 93) 100%);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+}
+
+.btnActEli2{
+    background: linear-gradient(144deg, rgb(10, 109, 202) 0%, rgb(59, 214, 93) 100%);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+}
+
+.edit{
+    background: linear-gradient(144deg, rgb(10, 109, 202) 0%, rgb(59, 214, 93) 100%);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+}
+
+.cnsEdit{
+    background: linear-gradient(144deg, rgb(10, 109, 202) 0%, rgb(59, 214, 93) 100%);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+}
+input[type=text]{
+    border-radius: 8px;
+    padding: .5em;
+    border: 1px solid #c9c9c9;
+    background: linear-gradient(144deg, rgb(132, 134, 133) 0%, rgb(255, 254, 255) 100%);
+    width: 180%;
+}
+input[type=text]{
+   text-align: left;
+}
+li{
+    border: #c9c9c9 0px groove;
+    border-radius: 8px;
+}
+li> ul{
+    border: rgb(5, 5, 5) 2px groove;
+    border-radius: 8px;
+    width: 17em;
+    height: 1.5em;
+    font-size: 1em;
+    background: linear-gradient(144deg, rgb(101, 189, 146) 0%, rgb(163, 106, 218) 100%);
+}
+
+ul{
+    list-style-type: none;
+   
+}
